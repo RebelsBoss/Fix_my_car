@@ -1,6 +1,6 @@
 # Fix My Car - Vertex AI Search
 
-У цьому посібнику описано, як розгорнути додаток **Fix My Car** в **GKE**, використовуючи **Vertex AI Search** як сховище даних про заземлення.
+У цьому посібнику описано, як розгорнути додаток **Fix My Car** в **GKE**, використовуючи **Vertex AI Search** як сховище даних.
 
 <img width="2098" alt="arch-vertex-ai-search" src="https://github.com/RebelsBoss/Fix_my_car/assets/126337643/ba691211-6e73-42cb-90c9-99dd9f5a5a36">
 
