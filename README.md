@@ -2,5 +2,14 @@
 
 У цьому посібнику описано, як розгорнути додаток **Fix My Car** в **GKE**, використовуючи **Vertex AI Search** як сховище даних про заземлення.
 
-https://raw.githubusercontent.com/GoogleCloudPlatform/generative-ai/main/gemini/sample-apps/fixmycar/vertex-ai-search/images/arch-vertex-ai-search.png
+<img width="2098" alt="arch-vertex-ai-search" src="https://github.com/RebelsBoss/Fix_my_car/assets/126337643/ba691211-6e73-42cb-90c9-99dd9f5a5a36">
 
+## Передумови
+
+Щоб розгорнути цей додаток, вам знадобиться:
+
+- Проект Google Cloud з увімкненим білінгом.
+- Google Cloud SDK (gcloud), встановлений і налаштований у вашому локальному середовищі (або використовуйте Google Cloud Shell). (Примітка: gcloud SDK вже встановлено в Google Cloud Shell)
+- Docker Engine, АБО інструмент з відкритим вихідним кодом, такий як Colima, який може виконувати збірку докерів та виштовхування докерів. (Примітка: Docker вже встановлено у Google Cloud Shell).
+- Java 18+, Maven 3.9.6+
+- Python 3.9+
