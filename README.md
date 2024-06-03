@@ -33,6 +33,8 @@ gcloud auth configure-docker us-central1-docker.pkg.dev
 
 3. Відкрийте термінал або **Cloud Shell**. Вставте команду і запустіть її. Це дозволить автентифікувати ваш **Docker**-клієнт у вашому **Artifact Registry**.
 
+**Очікуваний результат:**
+
 ```
 {
   "credHelpers": {
@@ -40,4 +42,18 @@ gcloud auth configure-docker us-central1-docker.pkg.dev
   }
 }
 Adding credentials for: us-central1-docker.pkg.dev
+```
+
+4. Відкрийте скрипт **dockerpush.sh** у корені цього каталогу. Замініть **PROJECT_ID** на ідентифікатор вашого проекту в **Google Cloud**.
+5. Запустіть скрипт, щоб створити і перенести зображення контейнерів **Frontend** і **Backend** до **Artifact Registry**.
+
+```
+./dockerpush.sh
+```
+
+**Очікуваний результат:**
+
+```
+latest: digest: sha256:864589160d7c3f982472427ed008cc03cf244f5db61a0c7312caaaa670ee0e47 size: 1786
+✅ Container build and push complete.
 ```
