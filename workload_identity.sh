@@ -8,7 +8,7 @@ gcloud iam service-accounts create fixmycar
 
 # Grant GCP service account necessary IAM roles
 # Note - providing all roles across both app flavors (Cloud SQL and Vertex AI Search)
-PROJECT_ID="your_project_id"
+PROJECT_ID="YOUR-PROJECT-ID"
 GSA_MEMBER="fixmycar@${PROJECT_ID}.iam.gserviceaccount.com"
 
 # IAM Role: Vertex AI Search (API is called DIscovery Engine)
