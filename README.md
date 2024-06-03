@@ -214,6 +214,14 @@ kubectl apply -f kubernetes/backend-service.yaml
 kubectl apply -f kubernetes/frontend-deployment.yaml
 kubectl apply -f kubernetes/frontend-service.yaml
 ```
+Для видалення:
+
+```
+kubectl delete -f kubernetes/backend-deployment.yaml
+kubectl delete -f kubernetes/backend-service.yaml
+kubectl delete -f kubernetes/frontend-deployment.yaml
+kubectl delete -f kubernetes/frontend-service.yaml
+```
 
 Ви можете побачити попередження про коригування ресурсів **Autopilot**. Це нормально, [**GKE Autopilot**](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-resource-requests#overview) масштабує свої обчислювальні ресурси для виконання ваших робочих навантажень.
 
