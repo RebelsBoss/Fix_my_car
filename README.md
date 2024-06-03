@@ -48,6 +48,9 @@ Adding credentials for: us-central1-docker.pkg.dev
 5. Запустіть скрипт, щоб створити і перенести зображення контейнерів **Frontend** і **Backend** до **Artifact Registry**.
 
 ```
+sudo chmod 777 dockerpush.sh
+sudo chmod 777 mvnw
+sudo chmod 777 mvnw.cmd
 ./dockerpush.sh
 ```
 
