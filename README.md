@@ -171,6 +171,7 @@ Operation completed over 10 objects/156.6 MiB.
 Запустіть скрипт встановлення, щоб налаштувати авторизацію.
 
 ```
+sudo chmod 777 workload_identity.sh
 ./workload_identity.sh
 ```
 
