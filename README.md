@@ -10,6 +10,6 @@
 
 - Проект [Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project) з увімкненим білінгом.
 - [Google Cloud SDK (gcloud)](https://cloud.google.com/sdk/docs/install), встановлений і налаштований у вашому локальному середовищі (або використовуйте [Google Cloud Shell](https://cloud.google.com/sdk/docs/interactive-gcloud)). (Примітка: gcloud SDK вже встановлено в Google Cloud Shell)
-- Docker Engine, АБО інструмент з відкритим вихідним кодом, такий як Colima, який може виконувати збірку докерів та виштовхування докерів. (Примітка: Docker вже встановлено у Google Cloud Shell).
+- [Docker Engine](https://docs.docker.com/engine/install/), АБО інструмент з відкритим вихідним кодом, такий як [Colima](https://github.com/abiosoft/colima), який може виконувати **docker build** та **docker push**. (Примітка: Docker вже встановлено у Google Cloud Shell).
 - Java 18+, Maven 3.9.6+
 - Python 3.9+
